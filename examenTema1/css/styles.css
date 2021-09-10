@@ -1,0 +1,194 @@
+body{
+    font-family: "Century Gothic";
+    background: #EBF5D7;
+    /*Permite que mi página web sea responsiva y dirreciona a los elementos hijos en columnas.*/
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-body, .titulo-header,
+.titulo-nav, .titulo-main, 
+.titulo-aside{
+    color: #666666;
+    font-weight: bold;
+}
+
+.titulo-body{
+    margin: 5px 0px 5px 8px;
+}
+
+header{
+    height: 80px;
+    background: #cccccc;
+    border: 1px solid #999999;
+    border-radius: 10px 10px 10px 10px;
+    /*Permite que mi página web sea responsiva y dirreciona a los elementos hijos en columnas.*/
+    display: flex;
+    flex-direction: column;
+    box-shadow: 4px 4px 3px 0px #bdbdbdbd;
+}
+
+.titulo-header{
+    margin: 5px 0px 5px 8px;
+}
+
+.encabezado{
+    height: 40px;
+    background: #dddddd;
+    margin: 0px 8px 0px 8px;
+    border: 1px solid #999999;
+    border-radius: 10px 10px 10px 10px;
+    /*Permite que mi página web sea responsiva y alinea los elementos hijos al centro.*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mitad2-enc{
+    margin-right: 20px;
+}
+
+.span-nav{
+    background: #F7EAC6;
+    padding: 3px 8px 3px 8px;
+    border: 1px solid #999999;
+    border-radius: 5px 5px 5px 5px;
+    margin-right: 5px;
+    box-shadow: 3px 3px 3px 0px #f0d486;
+}
+
+.titulo-nav{
+    margin-left: 15px;
+    margin-right: 30px;
+}
+
+.titulo-main{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+main{
+    background: #cccccc;
+    border: 1px solid #999999;
+    border-radius: 10px 10px 10px 10px;
+    margin: 10px 0px 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    box-shadow: 4px 4px 3px 0px #bdbdbdbd;
+}
+
+.mitad1-main{
+    width: 80%;
+    /*Elementos hijos en columnas y alineados al centro*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;    
+}
+
+.mitad2-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+}
+
+.seccion1{
+    width: 1065px;
+    background: #eeeeee;
+    border: 1px solid #999999;  
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-section-complete{
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+}
+
+.div-section-complete{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.div-section{
+    color: #333333;
+    background: #f0f9fa;
+    border: 1px solid #999999;
+    border-radius: 5px 5px 5px 5px;
+    padding: 70px 70px 70px 70px;
+    margin-bottom: 20px;
+}
+
+.div-section:hover{
+    background: #bbdefb;
+    border: 3px dashed #64b5f6;
+}
+
+.seccion2{
+    width: 1065px;
+    background: #eeeeee;
+    border: 1px solid #333333;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    box-shadow: 4px 3px 0px #3f3f3f;
+}
+
+.icono{
+    margin: 5px 0px 5px 0px;
+}
+
+.icono:hover{
+    width: 40px;
+    height: 40px;
+}
+
+.seccion3{
+    width: 200px;
+    height: 470px;
+    background: #eeeeee;
+    border: 1px solid #999999;
+    border-radius: 10px 10px 10px 10px;
+    /*Con flex: 1 el elemento hijo ocupará todo el espacio disponible del padre*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.a-aside{
+    color: #666666;
+    font-weight: bold;
+    text-decoration: none;
+
+    background: #ffd9b3;
+    border: 1px solid #cccccc;
+    border-radius: 5px 5px 5px 5px;
+    padding: 20px 45px 20px 45px;
+    box-shadow: 3px 3px 3px 0px #ffe0b2;
+}
+
+.a-aside:focus{
+    border: 3px dotted darksalmon;
+}
+
+footer{
+    color: #333333;
+    height: 70px;
+    background: #cccccc;
+    border: 1px solid #999999;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 4px 4px 3px 0px #bdbdbdbd;
+}
